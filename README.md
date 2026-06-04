@@ -4,6 +4,7 @@ nginx-http-flv-module-win32-compile-20260604
 因为服务器在windows上  所以编译了一个nginx
 
 D:\Tools\nginx-1.26.2>nginx -V
+
 nginx version: nginx/1.26.2
 built by cl 16.00.30319.01 for 80x86
 built with OpenSSL 3.0.14 4 Jun 2024
