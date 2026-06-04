@@ -5,11 +5,11 @@ nginx-http-flv-module-win32-compile-20260604
 
 D:\Tools\nginx-1.26.2>nginx -V
 
-nginx version: nginx/1.26.2
-built by cl 16.00.30319.01 for 80x86
-built with OpenSSL 3.0.14 4 Jun 2024
+nginx version: nginx/1.31.2
+built by cl 19.44.35226 版
+built with OpenSSL 3.0.15 3 Sep 2024
 TLS SNI support enabled
-configure arguments: --with-cc=cl --builddir=objs.msvc8 --with-debug --prefix= --conf-path=conf/nginx.conf --pid-path=logs/nginx.pid --http-log-path=logs/access.log --error-log-path=logs/error.log --sbin-path=nginx.exe --http-client-body-temp-path=temp/client_body_temp --http-proxy-temp-path=temp/proxy_temp --http-fastcgi-temp-path=temp/fastcgi_temp --http-scgi-temp-path=temp/scgi_temp --http-uwsgi-temp-path=temp/uwsgi_temp --with-cc-opt=-DFD_SETSIZE=1024 --with-pcre=objs.msvc8/lib/pcre2-10.39 --with-zlib=objs.msvc8/lib/zlib-1.3.1 --with-http_v2_module --with-http_realip_module --with-http_addition_module --with-http_sub_module --with-http_dav_module --with-http_stub_status_module --with-http_flv_module --with-http_mp4_module --with-http_gunzip_module --with-http_gzip_static_module --with-http_auth_request_module --with-http_random_index_module --with-http_secure_link_module --with-http_slice_module --with-mail --with-stream --with-stream_realip_module --with-stream_ssl_preread_module --with-openssl=objs.msvc8/lib/openssl-3.0.14 --with-openssl-opt='no-asm no-tests -D_WIN32_WINNT=0x0501' --with-http_ssl_module --with-mail_ssl_module --with-stream_ssl_module
+configure arguments: --with-cc=cl --with-debug --prefix= --conf-path=conf/nginx.conf --pid-path=logs/nginx.pid --http-log-path=logs/access.log --error-log-path=logs/error.log --sbin-path=nginx.exe --http-client-body-temp-path=temp/client_body_temp --http-proxy-temp-path=temp/proxy_temp --http-fastcgi-temp-path=temp/fastcgi_temp --http-scgi-temp-path=temp/scgi_temp --http-uwsgi-temp-path=temp/uwsgi_temp --with-cc-opt=-DFD_SETSIZE=1024 --with-pcre=objs/lib/pcre2 --with-zlib=objs/lib/zlib --with-openssl=objs/lib/openssl --with-openssl-opt=no-asm --with-http_ssl_module --with-http_v2_module --with-http_realip_module --with-http_stub_status_module --with-http_mp4_module --with-http_flv_module --with-stream --add-module=/c/Users/kedlikz/Downloads/nginx-http-flv-module-1.2.13
 
 提供插件的仓库 : nginx-http-flv-module
 参考网站 : https://nginx.org/en/docs/howto_build_on_win32.html
